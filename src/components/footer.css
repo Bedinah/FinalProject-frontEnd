@@ -1,0 +1,21 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  font-family: "Spectral", serif;
+}
+
+.main-foota {
+  background-image: url(https://media.gettyimages.com/photos/herbs-and-spices-over-black-stone-background-picture-id589135154?b=1&k=20&m=589135154&s=170667a&w=0&h=MuYiqZW2zMeoU_r7QN0u0c-FFQEWsW3WFfPL0dMibXs=);
+  width: 100%;
+  height: 100vh;
+  padding: 10rem;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  object-fit: cover;
+}
