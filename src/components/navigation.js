@@ -211,19 +211,19 @@ const Navigation = () => {
       </div>
 
       <ul className="nav-links">
-        <li className="nav-link">HOME</li>
-        <li className="nav-link">ABOUT</li>
-        <li className="nav-link">
+        <li> <a href="/"   className="nav-link">HOME </a></li>
+        <li> <a href="about" className="nav-link">ABOUT US </a></li>
+        <li> <a href="prepare" className="nav-link">
         <Dropdown overlay={menu} placement="bottom">
         <Button>HOW TO PREPARE FOOD</Button>
-      </Dropdown>
+      </Dropdown> </a>
         </li>
-        <li className="nav-link">
+        <li> <a href="nutrition" className="nav-link">
         <Dropdown overlay={menuone} placement="bottom">
    
       <Button>DIET AND NUTRITION</Button>
         
-  </Dropdown>
+  </Dropdown> </a>
         </li>
       </ul>
     </div>
