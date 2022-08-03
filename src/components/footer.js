@@ -7,7 +7,8 @@ import {
   PhoneOutlined,
   MailOutlined,
   CommentOutlined,
-  SendOutlined 
+  SendOutlined ,
+  
 } from "@ant-design/icons";
 
 import "./footer.css";
@@ -22,6 +23,7 @@ const Footer = () => {
         <TwitterOutlined />
         <LinkedinOutlined />
         <InstagramOutlined />
+        
       </div>
 
       <p className="copyright"> {year} &copy; BUN SQUAD. ALL RIGHT RESERVED.</p>
