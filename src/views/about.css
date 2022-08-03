@@ -1,0 +1,19 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+    font-family: "Spectral", serif;
+  }
+
+  .main-content{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin: 3rem 10rem;
+    gap: 10rem;
+   
+  }

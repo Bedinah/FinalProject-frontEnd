@@ -1,0 +1,19 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  font-family: "Spectral", serif;
+}
+
+.carsoulImg {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+
+}
+
+
