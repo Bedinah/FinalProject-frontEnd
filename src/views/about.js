@@ -17,7 +17,7 @@ const About = () => {
           }}
           cover={<img alt="aboutimg" src={Abawuti} />}
         >
-          {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
+          
         </Card>
       </div>
       <div className="site-card-border-less-wrapper">
