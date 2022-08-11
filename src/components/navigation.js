@@ -250,7 +250,7 @@ const Navigation = () => {
 
               <Dropdown overlay={menu}>
     <a onClick={(e) => <Prepare></Prepare>}>
-      <Space>
+      <Space style={{color:"black" }}>
       HOW TO PREPARE FOOD
         
       </Space>
@@ -264,7 +264,7 @@ const Navigation = () => {
                 
 <Dropdown overlay={menuone}>
     <a onClick={(e) => <Nutrition></Nutrition>}>
-      <Space>
+      <Space style={{color:"black"}}>
       DIET AND NUTRITION
         
       </Space>
@@ -274,11 +274,12 @@ const Navigation = () => {
               </a>
             </li>
           </ul>
-          <Search
-            placeholder="input search text"
+          <Search 
+            placeholder="input search text" 
             onSearch={onSearch}
             style={{
               width: 200,
+              
             }}
           />
         </div>
