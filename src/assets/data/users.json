@@ -1,0 +1,64 @@
+[
+  {
+    "firstname": "David",
+    "lastname": "Kabera",
+    "email": "kaberadavid@gmail.com",
+    "phone": "+250785992234",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "picture":"https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+
+  {
+    "firstname": "Liliane",
+    "lastname": "Uwera",
+    "email": "uweraliliane@gmail.com",
+    "phone": "+250785992134",
+    "isActive": false,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "profile":"https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=400"
+
+  },
+
+  {
+    "firstname": "Derrick",
+    "lastname": "Kabera",
+    "email": "kaberaderrick@gmail.com",
+    "phone": "+250785992234",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "profile":"https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+
+  {
+    "firstname": "Jules",
+    "lastname": "Habiya",
+    "email": "habiyajule@gmail.com",
+    "phone": "+250781992234",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "picture":"https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+
+  {
+    "firstname": "Richard",
+    "lastname": "Uwase",
+    "email": "uwaserichard@gmail.com",
+    "phone": "+250785922234",
+    "isActive": true,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "picture":"https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&w=400"
+  },
+
+  {
+    "firstname": "Paci",
+    "lastname": "Hirwa",
+    "email": "kaberadavid@gmail.com",
+    "phone": "+250785992234",
+    "isActive": false,
+    "about": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+    "picture":"https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?auto=compress&cs=tinysrgb&w=400"
+  }
+
+  
+]

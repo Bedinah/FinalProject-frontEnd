@@ -13,6 +13,11 @@ import Childtwo from '../views/childtwo';
 import Adult from '../views/adult';
 import Diet from '../views/diet';
 
+import DashboardLayout from '../views/Admin/dashboardLayout';
+import ManageUser from "../views/Admin/manageUser";
+import ManageVideo from '../views/Admin/manageVideo';
+
+
 const Index = () => {
   return (
     
@@ -29,6 +34,11 @@ const Index = () => {
     <Route exact path="/childtwo" element={<Childtwo/>}></Route>
     <Route exact path="/adult" element={<Adult/>}></Route>
     <Route exact path="/diet" element={<Diet/>}></Route>
+
+
+    <Route exact path="/admin/dashboard" element={<DashboardLayout/>}></Route>
+    <Route exact path="/admin/users" element={<ManageUser/>}></Route>
+    <Route exact path="/admin/videos" element={<ManageVideo/>}></Route>
     </Routes>
     </HomeLayout>
     

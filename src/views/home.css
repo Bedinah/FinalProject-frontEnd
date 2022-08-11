@@ -9,11 +9,40 @@ html {
   font-family: "Spectral", serif;
 }
 
-.carsoulImg {
-  width: 100%;
-  height: 80vh;
-  overflow: hidden;
 
+
+.carsoulImg {
+  /* width: 90%;
+  height: 50rem;
+  background-size: cover;
+  overflow: hidden; */
+
+
+  width: 90%;
+  height: 50rem;
+  background-size: cover;
+  overflow: hidden;
+  margin-left: 6.5rem;
+  
+  
+
+}
+
+.otherImages{
+  width: 40%;
+  height: auto;
+  background-size: cover;
+  margin-top: 15rem;
+  
+}
+
+.otherImage{
+  width: 40%;
+  height: auto;
+  background-size: cover;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  
 }
 
 
