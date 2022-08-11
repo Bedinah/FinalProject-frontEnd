@@ -51,6 +51,7 @@ background-color:rgb(213, 226, 214);
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 .nav-link:hover {

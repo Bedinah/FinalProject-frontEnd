@@ -1,0 +1,25 @@
+[
+    {
+        "type":"BREAKFAST",
+        "name":"Omelette"
+
+    },
+
+    {
+        "type":"LUNCH",
+        "name":"Boiled Potatoes"
+
+    },
+
+    {
+        "type":"DINNER",
+        "name":"Mashroom Soup"
+
+    },
+
+    {
+        "type":"BREAKFAST",
+        "name":"Donats"
+
+    }
+]

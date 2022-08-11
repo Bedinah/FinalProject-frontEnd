@@ -1,0 +1,20 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+    font-family: "Spectral", serif;
+  }
+
+  .backImage{
+    background-image: url(https://images.pexels.com/photos/11444457/pexels-photo-11444457.jpeg);
+    width: 70%;
+    height: 50rem;
+    background-size: cover;
+    margin-left: 3rem;
+    border-radius: 3rem;
+  
+  }
