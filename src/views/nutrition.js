@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
+import "../views/nutrition.css";
+
+import { Typography} from "antd";
+
+const { Title} = Typography;
 
 const Nutrition = () => {
   return (
-    <div>
-      <h2>this is diest</h2>
-    </div>
-  )
-}
+    <>
+      <div className="nutrition-main">
+        <Title
+          style={{ color: "black", fontSize: "7rem", marginBottom: "10rem" }}
+        >
+          {" "}
+          HEALTH AND NUTRITION
+        </Title>
+      </div>
+    </>
+  );
+};
 
-export default Nutrition
+export default Nutrition;
