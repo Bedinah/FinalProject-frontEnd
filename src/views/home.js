@@ -7,7 +7,7 @@ import Foto1 from "../assets/images/homeimg1.jpg";
 import Foto2 from "../assets/images/homeimg2.jpg";
 import Foto3 from "../assets/images/homeimg3.jpg";
 import Foto4 from "../assets/images/homeimg4.jpg";
-import Foto5 from "../assets/images/homeimg5.jpg";
+import Foto5 from "../assets/images/img2.jpg";
 
 const { Text, Title } = Typography;
 const Home = () => {
@@ -23,11 +23,12 @@ const Home = () => {
         </Carousel>
       </div>
 
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" ,marginLeft:"15rem"}}>
         <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/taze_sebze.png"
           alt=""
           className="otherImages"
+          style={{width:"40rem"}}
         />
 
         <div className="site-card-border-less-wrapper">
@@ -36,7 +37,7 @@ const Home = () => {
             style={{
               width: 700,
               height: 200,
-              marginTop: "18rem",
+              marginTop: "10rem",
               marginRight: "10rem",
             }}
           >
@@ -59,15 +60,15 @@ const Home = () => {
         </div>
       </div>
 
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex",marginLeft:"10rem"}} >
         <div className="site-card-border-less-wrapper">
           <Card
             bordered={false}
             style={{
               width: 700,
               height: 200,
-              marginTop: "18rem",
-              marginLeft: "6rem",
+              marginTop: "10rem",
+              marginRight: "5rem",
             }}
           >
             <Title level={3} style={{ color: "green" }}>
@@ -87,14 +88,16 @@ const Home = () => {
           src="https://sabriulkerfoundation.org/EN/img/icerik/fizikselactivity.png"
           alt=""
           className="otherImage"
+          style={{width:"40rem"}}
         />
       </div>
 
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" ,marginLeft:"15rem"}}>
         <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/mangalsite.jpg"
           alt=""
           className="otherImages"
+          style={{width:"40rem"}}
         />
 
         <div className="site-card-border-less-wrapper">
@@ -103,7 +106,7 @@ const Home = () => {
             style={{
               width: 700,
               height: 200,
-              marginTop: "18rem",
+              marginTop: "10rem",
               marginRight: "10rem",
             }}
           >

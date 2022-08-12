@@ -39,7 +39,7 @@ const About = () => {
           </p>
           <p>
             {" "}
-            Our free online training platform enables thousands of teams around
+            Our free online platform enables thousands of teams around
             the world to rapidly upskill each day, with our unique microlearning
             format making it easier than ever to stay motivated and effectively
             retain knowledge.
