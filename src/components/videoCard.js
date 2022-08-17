@@ -19,7 +19,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 500,
+    minWidth: 500,
   },
   media: {
     height: 0,
@@ -48,8 +48,8 @@ const VideoCard = ({ Breakfast }) => {
   };
 
   return (
-    <Grid>
-      <Card className={classes.root} style={{ marginTop: "2rem" }}>
+    <Grid >
+      <Card className={classes.root}>
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>

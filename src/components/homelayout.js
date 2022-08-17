@@ -6,7 +6,7 @@ const HomeLayout=({children})=>{
     return(
 <>
 <Navigation/>
-<div style={{ minheight:"100vh"}}>{children}</div>
+<div style={{ minHeight:"50vh",width:"100%", padding: '1.5rem 5rem'}}>{children}</div>
 <Footer/>
 </>
     );

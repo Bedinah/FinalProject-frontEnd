@@ -1,5 +1,14 @@
 import React, { useRef, useState } from "react";
-import { Divider, Button, Modal, Dropdown, Menu, Input, Affix ,Space} from "antd";
+import {
+  Divider,
+  Button,
+  Modal,
+  Dropdown,
+  Menu,
+  Input,
+  Affix,
+  Space,
+} from "antd";
 import { UserOutlined, UserAddOutlined } from "@ant-design/icons";
 import Draggable from "react-draggable";
 import "antd/dist/antd.css";
@@ -63,28 +72,15 @@ const Navigation = () => {
       items={[
         {
           key: "1",
-          label: (
-            <Link to={"/breakfast"}>
-        BREAKFAST
-      </Link>
-            
-          ),
+          label: <Link to={"/breakfast"}>BREAKFAST</Link>,
         },
         {
           key: "2",
-          label: (
-            <Link to={"/lunch"}>
-            LUNCH
-          </Link>
-          ),
+          label: <Link to={"/lunch"}>LUNCH</Link>,
         },
         {
           key: "3",
-          label: (
-            <Link to={"/dinner"}>
-            DINNER
-          </Link>
-          ),
+          label: <Link to={"/dinner"}>DINNER</Link>,
         },
       ]}
     />
@@ -96,51 +92,30 @@ const Navigation = () => {
   const menuone = (
     <Menu
       items={[
-
         {
           key: "1",
           label: "CHILD",
           children: [
             {
               key: "1-1",
-              label:(
-                <Link to={"/childone"}>
-                FIRST 1000 YEARS
-              </Link>
-              ),
+              label: <Link to={"/childone"}>FIRST 1000 YEARS</Link>,
             },
             {
               key: "1-2",
-              label: (
-                <Link to={"/childtwo"}>
-                6MONTHS-5YEARS
-              </Link>
-              ),
+              label: <Link to={"/childtwo"}>6MONTHS-5YEARS</Link>,
             },
           ],
         },
 
         {
           key: "2",
-          label: (
-            <Link to={"/adult"}>
-           ADULT
-          </Link>
-          ),
+          label: <Link to={"/adult"}>ADULT</Link>,
         },
 
         {
-        key: "3",
-        label: (
-          <Link to={"/diet"}>
-          DIET
-        </Link>
-        ),
-        }
-
-
-
-       
+          key: "3",
+          label: <Link to={"/diet"}>DIET</Link>,
+        },
       ]}
     />
   );
@@ -219,9 +194,7 @@ const Navigation = () => {
               onOk={() => setModal1Visible(false)}
               onCancel={() => setModal1Visible(false)}
             >
-              
               <LogIn></LogIn>
-
             </Modal>
 
             {/* END LOGIN MODAL */}
@@ -245,37 +218,30 @@ const Navigation = () => {
               {" "}
               <a href="prepare" className="nav-link">
                 <Dropdown overlay={menu}>
-    <a onClick={(e) => <Prepare></Prepare>}>
-      <Space style={{color:"black" }}>
-      HOW TO PREPARE FOOD
-        
-      </Space>
-    </a>
-  </Dropdown>
+                  <a onClick={(e) => <Prepare></Prepare>}>
+                    <Space style={{ color: "black" }}>
+                      HOW TO PREPARE FOOD
+                    </Space>
+                  </a>
+                </Dropdown>
               </a>
             </li>
             <li>
               {" "}
               <a href="nutrition" className="nav-link">
-                
-<Dropdown overlay={menuone}>
-    <a onClick={(e) => <Nutrition></Nutrition>}>
-      <Space style={{color:"black"}}>
-      DIET AND NUTRITION
-        
-      </Space>
-    </a>
-  </Dropdown>
-
+                <Dropdown overlay={menuone}>
+                  <a onClick={(e) => <Nutrition></Nutrition>}>
+                    <Space style={{ color: "black" }}>DIET AND NUTRITION</Space>
+                  </a>
+                </Dropdown>
               </a>
             </li>
           </ul>
-          <Search 
-            placeholder="input search text" 
+          <Search
+            placeholder="input search text"
             onSearch={onSearch}
             style={{
               width: 200,
-              
             }}
           />
         </div>

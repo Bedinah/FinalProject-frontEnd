@@ -9,12 +9,7 @@ const Prepare = () => {
   return (
     <>
       <div className="prepare-main">
-        <Title
-          style={{ color: "white" ,fontSize: "7rem", marginBottom: "10rem" }}
-        >
-          {" "}
-          LEARN HOW TO COOK
-        </Title>
+        <h1 className="heading"> LEARN HOW TO COOK</h1>
 
         <div className="cards" style={{ marginLeft: "15rem" }}>
           <div className="site-card-wrapper">

@@ -1,13 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Col,
-  Drawer,
-  Form,
-  Input,
-  Row,
-  Space,
-} from "antd";
+import { Button, Col, Drawer, Form, Input, Row, Space } from "antd";
 import {
   InstagramOutlined,
   TwitterOutlined,
@@ -63,7 +55,11 @@ const Footer = () => {
           </div>
           <div>
             {" "}
-            <Button type="text" onClick={showDrawer} style={{color:"white", fontWeight:"500"}}>
+            <Button
+              type="text"
+              onClick={showDrawer}
+              style={{ color: "white", fontWeight: "500" }}
+            >
               Contact-Us
             </Button>
             <Drawer
@@ -77,7 +73,11 @@ const Footer = () => {
               extra={
                 <Space>
                   <Button onClick={onClose}>Cancel</Button>
-                  <Button onClick={onClose} type="secondary" style={{color:"black"}}>
+                  <Button
+                    onClick={onClose}
+                    type="secondary"
+                    style={{ color: "black" }}
+                  >
                     SEND
                   </Button>
                 </Space>

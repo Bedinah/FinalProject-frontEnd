@@ -3,15 +3,15 @@ import Grid from "@mui/material/Grid";
 import breakfasts from "../assets/data/breakfs.json";
 import VideoCard from "../components/videoCard";
 
-
 const Breakfast = () => {
- 
   return (
     <>
-      <div style={{ width: "100%", height: "auto", paddingLeft: "10px" }}>
-        <Grid style={{gridTemplateColumns:"50% ,50%"}}>
+      <div style={{ width: "100%"}}>
+        <Grid container justifyContent="center" alignItems="center">
           {breakfasts.map((Breakfast) => (
-            <VideoCard Breakfast={Breakfast} />
+            <Grid item xs={6} justifyContent="center" alignItems="center" sx={{display: "flex",justifyContent: "center", alignItems: "center", padding: "1rem"}}>
+              <VideoCard Breakfast={Breakfast} />
+            </Grid>
           ))}
         </Grid>
       </div>

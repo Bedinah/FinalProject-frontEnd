@@ -10,12 +10,11 @@ const Nutrition = () => {
   return (
     <>
       <div className="nutrition-main">
-        <Title
-          style={{ fontSize: "7rem", marginBottom: "10rem", color: "black" }}
+        <h1 className="heading"
         >
           {" "}
           HEALTH AND NUTRITION
-        </Title>
+        </h1>
 
         <Title level={3} style={{ color: "green" }}>
           {" "}
@@ -35,17 +34,15 @@ const Nutrition = () => {
                   <Image
                     preview={true}
                     src={Nutrition.picture}
-                    style={{ width: "35rem", miHeight: "30rem" }}
+                    style={{ width: "35rem", height: "30rem" }}
                   />
                   <Text type="secondary" italic>
                     {Nutrition.explanation}
                   </Text>{" "}
                 </div>
-                <Title level={4}>{Nutrition.titl}
-                </Title>
-                <Text >
-                    {Nutrition.explanation2}
-                  </Text>
+                <Title level={4}>{Nutrition.titl}</Title>
+                {Nutrition.explanation2.split("#").map((exp)=>(<p>{exp}</p>))}
+              
               </Space>
             </Card.Grid>
           ))}
