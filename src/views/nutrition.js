@@ -9,30 +9,42 @@ const Nutrition = () => {
   return (
     <>
       <div className="nutrition-main">
-        <div className="titlee">
-        <Title>
+        <Title
+          style={{ fontSize: "7rem", marginBottom: "10rem", color: "black" }}
+        >
           {" "}
           HEALTH AND NUTRITION
         </Title>
-        </div>
+
+        <Title level={3} style={{ color: "green" }}>
+          {" "}
+          FIVE FOOD GROUPS:
+        </Title>
       </div>
 
       <div style={{ width: "100%", height: "auto", padding: "10px" }}>
         <Card>
           {foods.map((Nutrition) => (
-            <Card.Grid style={{ width: "33.3%", minHeight: "30rem" }}>
+            <Card.Grid style={{ width: "50%", miniHeight: "30rem" }}>
               <Space direction="vertical">
-                <Image
-                  preview={true}
-                  src={Nutrition.picture}
-                  style={{ width: "35rem", miHeight: "30rem" }}
-                />
                 <Title level={4} style={{ color: "rgb(130, 118, 4)" }}>
                   {Nutrition.titlo.toUpperCase()}
                 </Title>
-                <Text type="secondary" italic>
-                  {Nutrition.explanation}
-                </Text>
+                <div style={{ display: "flex", gap: "1rem" }}>
+                  <Image
+                    preview={true}
+                    src={Nutrition.picture}
+                    style={{ width: "35rem", miHeight: "30rem" }}
+                  />
+                  <Text type="secondary" italic>
+                    {Nutrition.explanation}
+                  </Text>{" "}
+                </div>
+                <Title level={4}>{Nutrition.titl}
+                </Title>
+                <Text >
+                    {Nutrition.explanation2}
+                  </Text>
               </Space>
             </Card.Grid>
           ))}
