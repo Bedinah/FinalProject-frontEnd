@@ -28,6 +28,7 @@ const Index = () => {
     <Route exact path="prepare" element={<Prepare />}></Route>
     <Route exact path="nutrition" element={<Nutrition />}></Route>
     <Route exact path="/breakfast" element={<Breakfast />}></Route>
+    
     <Route exact path="/lunch" element={<Lunch/>}></Route>
     <Route exact path="/dinner" element={<Dinner/>}></Route>
     <Route exact path="/childone" element={<Childone/>}></Route>
