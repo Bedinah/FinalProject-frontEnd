@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
+import Grid from "@mui/material/Grid";
+import lunch from "../assets/data/lunch.json";
+import VideoCard1 from "../components/videoCard1";
+
 
 const Lunch = () => {
+ 
   return (
-    <div>
-      <h1>this is lunch</h1>
-    </div>
-  )
-}
+    <>
+      <div style={{ width: "100%", height: "auto", paddingLeft: "10px" }}>
+        <Grid>
+          {lunch.map((Lunch) => (
+            <VideoCard1 Lunch={Lunch} />
+          ))}
+        </Grid>
+      </div>
+    </>
+  );
+};
 
-export default Lunch
+export default Lunch;

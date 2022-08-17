@@ -1,6 +1,5 @@
 import React from "react";
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
 import "../views/home.css";
 import { Carousel, Card, Typography } from "antd";
 import Foto1 from "../assets/images/homeimg1.jpg";
@@ -23,7 +22,7 @@ const Home = () => {
         </Carousel>
       </div>
 
-      <div style={{ display: "flex" ,marginLeft:"15rem"}}>
+      <div style={{ display: "flex" ,margin:"0 10rem" , marginTop:"5rem"}}>
         <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/taze_sebze.png"
           alt=""
@@ -37,8 +36,9 @@ const Home = () => {
             style={{
               width: 700,
               height: 200,
-              marginTop: "10rem",
-              marginRight: "10rem",
+              // marginTop: "10rem",
+              // marginRight: "10rem",
+              // position: "relative"
             }}
           >
             <Title level={3} style={{ color: "green" }}>
@@ -52,15 +52,13 @@ const Home = () => {
               positive effect upon blood sugar, which can help keep appetite in
               check.
             </Text>
-            <Stack spacing={2} direction="row">
-      
-      <Button variant="outlined">Outlined</Button>
-    </Stack>
+            <Button style={{margin:"1rem 20rem", color:"green", padding:"1rem 2rem", fontSize:"1.7rem"}}  variant="outlined"><a href="nutrition">Explore more</a></Button>
           </Card>
+         
         </div>
       </div>
 
-      <div style={{ display: "flex",marginLeft:"10rem"}} >
+      <div style={{ display: "flex",margin:"0 15rem"}} >
         <div className="site-card-border-less-wrapper">
           <Card
             bordered={false}
@@ -68,7 +66,7 @@ const Home = () => {
               width: 700,
               height: 200,
               marginTop: "10rem",
-              marginRight: "5rem",
+              // marginRight: "5rem",
             }}
           >
             <Title level={3} style={{ color: "green" }}>
@@ -83,6 +81,7 @@ const Home = () => {
               check.
             </Text>
           </Card>
+          <Button style={{margin:"1rem 20rem", color:"green", padding:"1rem 2rem", fontSize:"1.7rem"}}  variant="outlined"><a href="nutrition">Explore more</a></Button>
         </div>
         <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/fizikselactivity.png"
@@ -92,7 +91,7 @@ const Home = () => {
         />
       </div>
 
-      <div style={{ display: "flex" ,marginLeft:"15rem"}}>
+      <div style={{ display: "flex" ,margin:" 0 15rem"}}>
         <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/mangalsite.jpg"
           alt=""
@@ -122,6 +121,7 @@ const Home = () => {
               check.
             </Text>
           </Card>
+          <Button style={{margin:"1rem 20rem", color:"green", padding:"1rem 2rem", fontSize:"1.7rem"}}  variant="outlined"><a href="nutrition">Explore more</a></Button>
         </div>
       </div>
 

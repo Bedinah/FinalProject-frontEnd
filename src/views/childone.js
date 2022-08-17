@@ -7,9 +7,6 @@ const { Title } = Typography;
 
 const { TabPane } = Tabs;
 
-// const onChange = (key) => {
-//   console.log(key);
-// };
 const Childone = () => {
   return (
     <>
