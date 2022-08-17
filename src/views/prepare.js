@@ -10,7 +10,7 @@ const Prepare = () => {
     <>
       <div className="prepare-main">
         <Title
-          style={{ color: "white", fontSize: "7rem", marginBottom: "10rem" }}
+          style={{ color: "white" ,fontSize: "7rem", marginBottom: "10rem" }}
         >
           {" "}
           LEARN HOW TO COOK

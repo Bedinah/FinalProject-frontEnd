@@ -1,9 +1,46 @@
 [
     {
-        "tittle":"Omellet",
+        "title":"Sandwich Recipe",
         "subheader":"January 1st 2022",
-        "image":"https://www.youtube.com/embed/rUcwv63m81c",
-        "alt":"impanga series"
+        "image":"https://www.youtube.com/embed/rnuXy9DpF7w",
+        "alt":"Sandwich",
+        "description":" Less Oil Breakfast recipe | wheat flour Breakfast recipe | Breakfast recipe | Snacks recipe by Toasted",
+        "tittle":"Recipes",
+        "text":"Mix 3 eggs in a bowl, add salt | green and red paper | cheese | oignons | tomatoes , Toast the bread , mix on aluminium pane"
+
+    },
+
+    {
+        "title":"Breakfast Burrito",
+        "subheader":"February 2st 2022",
+        "image":"https://www.youtube.com/embed/sY7ZcIS6Njk",
+        "alt":"Burritos",
+        "description":"The breakfast burrito, is a variety of American breakfast composed of breakfast items wrapped inside a flour tortilla burrito",
+        "tittle":"Recipes",
+        "text":"The breakfast burrito can be prepared with myriad filling ingredients, such as eggs, ham, cheese, onion, peppers, bacon, Canadian bacon, potatoes, sausage, avocado, tomato, spinach, beans, and olives. breakfast burritos are often served smothered (covered with a chile sauce) or handheld (with chile sauce or chopped green chile inside). It is usually served heated up or cooked."
+
+    },
+
+    {
+        "title":"Smoky beans & baked eggs",
+        "subheader":"June 3st 2020",
+        "image":"https://www.youtube.com/embed/EUsKdJ-hqI8",
+        "alt":"Beans",
+        "description":"ack in the nutrients with smoky beans and baked eggs. Great for a veggie family lunch or supper",
+        "tittle":"Recipes",
+        "text":"2 tbsp oil ,1 onion , chopped, 1 red pepper , sliced, 3 garlic cloves , crushed,2 tsp smoked paprika,  1 tbsp ketchup, handful of coriander , leaves picked   400g can chopped tomatoes,  2 x 400g cans black or pinto beans , drained , 4-6 eggs , depending on how hungry you are (adults may want 2 eggs each),"
+       
+    },
+
+    {
+        "title":"African Tea",
+        "subheader":"January 2st 2021",
+        "image":"https://www.youtube.com/embed/WFLJT28EGVI",
+        "alt":"impanga series",
+        "description":"this is page one,mzcn lafhdvfnzx,n ndkjvjfdslklznchvcvbdskkzskj",
+        "tittle":"Recipes",
+        "text":"Combine milk, tea, and sugar in a small saucepan and bring to a boil. Wash the piece of ginger and smash it until juices begin to flow. Add the ginger to the milk-tea mixture when it begins to boil. Reduce the heat and let it simmer for 2-3 minutes. Strain and serve"
 
     }
+
 ]

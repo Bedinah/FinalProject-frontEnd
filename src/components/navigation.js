@@ -244,11 +244,7 @@ const Navigation = () => {
             <li>
               {" "}
               <a href="prepare" className="nav-link">
-                {/* <Dropdown overlay={menu} placement="bottom">
-                  <Button>HOW TO PREPARE</Button>
-                </Dropdown>{" "} */}
-
-              <Dropdown overlay={menu}>
+                <Dropdown overlay={menu}>
     <a onClick={(e) => <Prepare></Prepare>}>
       <Space style={{color:"black" }}>
       HOW TO PREPARE FOOD

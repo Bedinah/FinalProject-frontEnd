@@ -45,6 +45,7 @@ background-color:rgb(213, 226, 214);
 .title {
   font-size: 5rem;
   font-weight: 800;
+  text-shadow: 3px 5px 5px #555;
 }
 
 .nav-link:link, .nav-link:visited{

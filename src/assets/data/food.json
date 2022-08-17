@@ -1,0 +1,34 @@
+[
+    {
+        "picture":"https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titlo":"fruits",
+        "explanation":"A wide variety of fruit is grown and available . Choosing fruits in season provides better value and better quality.  Eating seasonally also adds more variety to your diet throughout the year.  And just like with veggies, choosing different coloured fruits increases the variety of nutrients, which can enhance your health! ",
+        "titl":"HEALTHY BENEFITS OF FRUITS",
+        "explanation2":"Did you know there is increasing evidence that whole foods such as fruit are more effective in reducing the risk of cancer than specific vitamin and mineral supplements. There is also building evidence that some risk factors for cancer can be avoided by eating fruit (and vegetables and legumes) during childhood and early adult life. Most fruits are low in energy (kilojoules) and high in fibre and water, making you feel fuller. This reduces the risk of over eating which can cause weight gain. The fibre in fruit is also thought to reduce the risk of some cancers, including colorectal cancer.Fruit is abundant in vitamins, minerals and phytochemicals. Vitamins such as vitamin C and E and different phytochemicals may reduce the risk of cardiovascular conditions. Potassium and magnesium found in fruit have also been linked to lower blood pressure.Different coloured fruits, especially orange, red and yellow fruit, contain carotenes (Vitamin A) which are also thought to assist in immune function."
+        
+    },
+
+    {
+        "picture":"https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titlo":"vegetables",
+        "explanation":""
+    },
+
+    {
+        "picture":"https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titlo":"grains",
+        "explanation":""
+    },
+
+    {
+        "picture":"https://images.pexels.com/photos/5913170/pexels-photo-5913170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "titlo":"proteins",
+        "explanation":""
+    },
+
+    {
+        "picture":"https://images.pexels.com/photos/5946724/pexels-photo-5946724.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "titlo":"dairy",
+        "explanation":""
+    }
+]
