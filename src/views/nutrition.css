@@ -9,6 +9,14 @@ html {
   font-family: "Spectral", serif;
 }
 
-
+.heading {
+  text-align: center;
+    font-size: 6rem;
+    background-image:linear-gradient(to right,rgb(23,35,148), #fae209);
+    color: transparent;
+    -webkit-background-clip:text;
+    padding-top:5rem
+  
+}
 
 
