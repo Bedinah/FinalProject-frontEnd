@@ -11,7 +11,8 @@ html {
 
 .heading {
   text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
+    font-weight: 700;
     background-image:linear-gradient(to right,rgb(23,35,148), #fae209);
     color: transparent;
     -webkit-background-clip:text;

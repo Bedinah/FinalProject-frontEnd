@@ -9,14 +9,18 @@ html {
   font-family: "Spectral", serif;
 }
 
-.nav-bar{
-    background-color: aliceblue;
-    
-    
+.nav-bar {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1.5rem 5rem;
 }
 
-.nav-bar:hover{
-background-color:rgb(213, 226, 214);
+.nav-bar:hover {
+  background-color: rgb(213, 226, 214);
 }
 
 .nav-links {
@@ -27,18 +31,19 @@ background-color:rgb(213, 226, 214);
   margin-left: 35rem;
 }
 
-.nav-search{
-    display: flex;
-    gap: 15rem;
+.nav-search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 22rem;
+
 }
 
 .logo-title {
-  
-  
+  width: 100%;
   display: flex;
-  gap: 10rem;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
   color: green;
 }
 
@@ -48,22 +53,20 @@ background-color:rgb(213, 226, 214);
   text-shadow: 3px 5px 5px #555;
 }
 
-.nav-link:link, .nav-link:visited{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
 .nav-link:hover {
-  color:green;
+  color: green;
 }
 
 .logo-img {
   width: 200px;
   height: 100px;
   object-fit: cover;
-  
 }
-
-

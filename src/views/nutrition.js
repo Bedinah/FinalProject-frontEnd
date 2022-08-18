@@ -33,14 +33,15 @@ const Nutrition = () => {
                   <Image
                     preview={true}
                     src={Nutrition.picture}
-                    style={{ width: "35rem", miHeight: "30rem" }}
+                    style={{ width: "35rem", height: "30rem" }}
                   />
                   <Text type="secondary" italic>
                     {Nutrition.explanation}
                   </Text>{" "}
                 </div>
                 <Title level={4}>{Nutrition.titl}</Title>
-                <Text>{Nutrition.explanation2}</Text>
+                {Nutrition.explanation2.split("#").map((exp)=>(<p>{exp}</p>))}
+              
               </Space>
             </Card.Grid>
           ))}
