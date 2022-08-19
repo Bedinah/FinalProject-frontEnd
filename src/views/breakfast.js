@@ -6,10 +6,21 @@ import VideoCard from "../components/videoCard";
 const Breakfast = () => {
   return (
     <>
-      <div style={{ width: "100%"}}>
+      <div style={{ width: "100%" }}>
         <Grid container justifyContent="center" alignItems="center">
           {breakfasts.map((Breakfast) => (
-            <Grid item xs={6} justifyContent="center" alignItems="center" sx={{display: "flex",justifyContent: "center", alignItems: "center", padding: "1rem"}}>
+            <Grid
+              item
+              xs={6}
+              justifyContent="center"
+              alignItems="center"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                padding: "1rem",
+              }}
+            >
               <VideoCard Breakfast={Breakfast} />
             </Grid>
           ))}

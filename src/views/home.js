@@ -23,7 +23,7 @@ const Home = () => {
       </div>
 
       <div style={{ display: "flex", margin: "0 10rem", marginTop: "5rem" }}>
-        <img
+      <img
           src="https://sabriulkerfoundation.org/EN/img/icerik/taze_sebze.png"
           alt=""
           className="otherImages"
@@ -36,9 +36,6 @@ const Home = () => {
             style={{
               width: 700,
               height: 200,
-              // marginTop: "10rem",
-              // marginRight: "10rem",
-              // position: "relative"
             }}
           >
             <Title level={3} style={{ color: "green" }}>
@@ -57,7 +54,7 @@ const Home = () => {
                 margin: "1rem 20rem",
                 color: "green",
                 padding: "1rem 2rem",
-                fontSize: "1.7rem",
+                fontSize: "1.3rem",
               }}
               variant="outlined"
             >
@@ -95,7 +92,7 @@ const Home = () => {
               margin: "1rem 20rem",
               color: "green",
               padding: "1rem 2rem",
-              fontSize: "1.7rem",
+              fontSize: "1.3rem",
             }}
             variant="outlined"
           >
@@ -115,7 +112,7 @@ const Home = () => {
           src="https://sabriulkerfoundation.org/EN/img/icerik/mangalsite.jpg"
           alt=""
           className="otherImages"
-          style={{ width: "40rem" }}
+          style={{ width: "35rem" }}
         />
 
         <div className="site-card-border-less-wrapper">
@@ -142,18 +139,20 @@ const Home = () => {
           </Card>
           <Button
             style={{
-              margin: "1rem 20rem",
+              margin: "0rem 20rem",
               color: "green",
               padding: "1rem 2rem",
-              fontSize: "1.7rem",
+              fontSize: "1.3rem",
             }}
             variant="outlined"
           >
             <a href="nutrition">Explore more</a>
           </Button>
         </div>
-      </div>
+      </div> 
+
     </>
+    
   );
 };
 

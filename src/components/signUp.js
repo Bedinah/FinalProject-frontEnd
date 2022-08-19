@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button, Checkbox, Form, Input, Select } from "antd";
 
 const { Option } = Select;
@@ -61,7 +61,7 @@ const SignUp = () => {
       </Select>
     </Form.Item>
   );
-  const [autoCompleteResult, setAutoCompleteResult] = useState([]);
+  // const [autoCompleteResult, setAutoCompleteResult] = useState([]);
 
   return (
     <Form
@@ -120,6 +120,7 @@ const SignUp = () => {
       </Form.Item>
 
       <Form.Item
+        style={{ color: "black" }}
         name="password"
         label="Password"
         rules={[
@@ -208,12 +209,19 @@ const SignUp = () => {
         {...tailFormItemLayout}
       >
         <Checkbox>
-          I have read the <a href="">agreement</a>
+          I have read the <a href="terms">agreement</a>
         </Checkbox>
       </Form.Item>
       <Form.Item {...tailFormItemLayout}>
-        <Button type="primary" htmlType="submit">
-          Create
+        <Button type="primary" htmlType="submit"
+          style={{
+            padding: "1rem 3rem ",
+            textAlign: "center",
+            borderRadius: "1rem",
+            background: "grey",
+          }}
+        >
+          CREATE ACCOUNT
         </Button>
       </Form.Item>
     </Form>
