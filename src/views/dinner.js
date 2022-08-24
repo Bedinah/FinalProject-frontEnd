@@ -8,10 +8,24 @@ const Dinner = () => {
  
   return (
     <>
-      <div style={{ width: "100%", height: "auto", paddingLeft: "10px" }}>
-        <Grid>
+      <div style={{ width: "100%" }}>
+        <Grid container justifyContent="center" alignItems="center">
           {dinner.map((Dinner) => (
-            <VideoCard2 Dinner={Dinner} />
+             <Grid
+             item
+             xs={6}
+             justifyContent="center"
+             alignItems="center"
+             sx={{
+               display: "flex",
+               justifyContent: "center",
+               alignItems: "center",
+               padding: "1rem",
+             }}
+           >
+             <VideoCard2 Dinner={Dinner} />
+           </Grid>
+            
           ))}
         </Grid>
       </div>
