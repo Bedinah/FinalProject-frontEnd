@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
-import breakfasts from "../assets/data/breakfs.json";
+// import breakfasts from "../assets/data/breakfs.json";
 import VideoCard from "../components/videoCard";
+import LessonServices from "../services/LessonService";
 
 const Breakfast = () => {
+  const [Lesson, setLesson] = useState([]);
+
+  useEffect(() => {
+    LessonServices.getAllLessons().then((res) => {
+      setLesson(res?.data);
+    });
+  }, []);
   return (
     <>
       <div style={{ width: "100%" }}>
         <Grid container justifyContent="center" alignItems="center">
-          {breakfasts.map((Breakfast) => (
+          {Lesson.map((lesson) => (
             <Grid
               item
               xs={6}
@@ -21,7 +29,7 @@ const Breakfast = () => {
                 padding: "1rem",
               }}
             >
-              <VideoCard Breakfast={Breakfast} />
+              <VideoCard Lesson={lesson} />
             </Grid>
           ))}
         </Grid>

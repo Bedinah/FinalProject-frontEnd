@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import Grid from "@mui/material/Grid";
@@ -39,16 +39,16 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: green[500],
   },
 }));
-const VideoCard = ({ Breakfast }) => {
+const VideoCard = ({ Lesson }) => {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
 
   return (
-    <Grid >
+    <Grid>
       <Card className={classes.root}>
         <CardHeader
           avatar={
@@ -61,23 +61,21 @@ const VideoCard = ({ Breakfast }) => {
               <MoreVertIcon />
             </IconButton>
           }
-          title={Breakfast.title.toUpperCase()}
-          subheader={Breakfast.subheader}
+          title={Lesson.title1.toUpperCase()}
+          subheader={Lesson.subheader}
         />
 
         <CardMedia
           component="iframe"
           width="260"
           height="300"
-          image={Breakfast.image}
-          alt={Breakfast.alt}
-          autoPlay
-          controls
+          image={Lesson.video}
+          alt={Lesson.alt}
         />
 
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
-            {Breakfast.description}
+            {Lesson.description}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -92,7 +90,7 @@ const VideoCard = ({ Breakfast }) => {
               [classes.expandOpen]: expanded,
             })}
             onClick={(Breakfast) => {
-              console.log(">>>>", Breakfast.title);
+              console.log(">>>>", Lesson.title2);
               handleExpandClick();
             }}
             aria-expanded={expanded}
@@ -103,8 +101,8 @@ const VideoCard = ({ Breakfast }) => {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>{Breakfast.tittle}</Typography>
-            <Typography paragraph>{Breakfast.text}</Typography>
+            <Typography paragraph>{Lesson.title2}</Typography>
+            <Typography paragraph>{Lesson.explanation}</Typography>
           </CardContent>
         </Collapse>
       </Card>
