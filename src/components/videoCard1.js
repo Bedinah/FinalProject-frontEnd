@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: green[500],
   },
 }));
-const VideoCard1 = ({ Lunch }) => {
+const VideoCard1 = ({ Lesson }) => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -61,23 +61,23 @@ const VideoCard1 = ({ Lunch }) => {
               <MoreVertIcon />
             </IconButton>
           }
-          title={Lunch.title.toUpperCase()}
-          subheader={Lunch.subheader}
+          title={Lesson.title11}
+          subheader={Lesson.subheader1}
         />
 
         <CardMedia
           component="iframe"
           width="260"
           height="300"
-          image={Lunch.image}
-          alt={Lunch.alt}
+          image={Lesson.video1}
+          alt={Lesson.alt1}
           autoPlay
           controls
         />
 
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
-            {Lunch.description}
+            {Lesson.description1}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -91,8 +91,8 @@ const VideoCard1 = ({ Lunch }) => {
             className={clsx(classes.expand, {
               [classes.expandOpen]: expanded,
             })}
-            onClick={(Breakfast) => {
-              console.log(">>>>", Lunch.title);
+            onClick={(Lunch) => {
+              console.log(">>>>", Lesson.title21);
               handleExpandClick();
             }}
             aria-expanded={expanded}
@@ -103,8 +103,8 @@ const VideoCard1 = ({ Lunch }) => {
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>{Lunch.tittle}</Typography>
-            <Typography paragraph>{Lunch.text}</Typography>
+            <Typography paragraph>{Lesson.title21}</Typography>
+            <Typography paragraph>{Lesson.explanation1}</Typography>
           </CardContent>
         </Collapse>
       </Card>

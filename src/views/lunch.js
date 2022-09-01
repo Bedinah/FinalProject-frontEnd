@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Grid from "@mui/material/Grid";
-import lunch from "../assets/data/lunch.json";
+// import lunch from "../assets/data/lunch.json";
 import VideoCard1 from "../components/videoCard1";
+import Lesson1Services from "../services/lesson1Service";
 
 const Lunch = () => {
+  const [Lesson, setLesson] = useState([]);
+
+  useEffect(() => {
+    Lesson1Services.getAllLessons().then((res) => {
+      setLesson(res?.data);
+    });
+  }, []);
+
   return (
     <>
       <div style={{ width: "100%" }}>
         <Grid container justifyContent="center" alignItems="center">
-          {lunch.map((Lunch) => (
+          {Lesson.map((lesson) => (
             <Grid
               item
               xs={6}
@@ -21,7 +30,7 @@ const Lunch = () => {
                 padding: "1rem",
               }}
             >
-              <VideoCard1 Lunch={Lunch} />
+              <VideoCard1 Lesson={lesson} />
             </Grid>
           ))}
         </Grid>
