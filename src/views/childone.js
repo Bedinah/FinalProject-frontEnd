@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import { Typography, Card, Space, Image, Tabs } from "antd";
 import "./childone.css";
 
@@ -41,12 +41,11 @@ const Childone = () => {
 
           <Space
             direction="vertical"
-            style={{ width: "90%", paddingLeft: "6rem", paddingTop:"3rem" }}
+            style={{ width: "90%", paddingLeft: "6rem", paddingTop: "3rem" }}
           >
-            <Title level={3} >
+            <Title level={3} id="tito1">
               Breastfeeding
             </Title>
-            
             The intestinal microbiome of infants requires a high proportion of
             Bifidobacteria during the first year of life to aid in the digestion
             of milk. Breast milk harbours a diverse microbiota, plus nutrients
@@ -55,7 +54,7 @@ const Childone = () => {
             the infant gut, strongly favouring the proliferation of
             bifidobacteria.1 It has been estimated that 25–30% of the infant
             bacterial microbiota originates from breast milk.
-            <Title level={3} >
+            <Title level={3} id="tito2">
               What is our microbiome?
             </Title>
             Our bodies provide a home for a vast range of micro-organisms,
@@ -66,18 +65,20 @@ const Childone = () => {
             become detrimental to our health if they are able to proliferate.
             Others can be beneficial to the body in many ways. In a healthy
             person, these micro-organisms are balanced and coexist peacefully.
-            <Title level={3} id="titoti">
+            <Title level={3} id="tito3">
               What is our microbiome?hskdjsadhv
             </Title>
-            Our bodies provide a home for a vast range of micro-organisms,
-            including bacteria, fungi an d viruses. Collectively, these are
-            known as the human microbiota. Our microbiome is the collection of
-            genomes from all the micro-organisms and are specific to each
-            person. Some micro-organisms are disease-causing, and others only
-            become detrimental to our health if they are able to proliferate.
-            Others can be beneficial to the body in many ways. In a healthy
-            person, these micro-organisms are balanced and coexist peacefully.
-            <Title level={3} >
+            <div>
+              Our bodies provide a home for a vast range of micro-organisms,
+              including bacteria, fungi an d viruses. Collectively, these are
+              known as the human microbiota. Our microbiome is the collection of
+              genomes from all the micro-organisms and are specific to each
+              person. Some micro-organisms are disease-causing, and others only
+              become detrimental to our health if they are able to proliferate.
+              Others can be beneficial to the body in many ways. In a healthy
+              person, these micro-organisms are balanced and coexist peacefully.
+            </div>
+            <Title level={3} id="tito4">
               What is our microbiome?
             </Title>
             Our bodies provide a home for a vast range of micro-organisms,
@@ -93,30 +94,24 @@ const Childone = () => {
         <aside style={{ paddingTop: "4rem", paddingRight: "3rem" }}>
           {" "}
           <Card style={{ backgroundColor: "aliceblue" }}>
-
-
-
-          <div className="card-container">
-    <Tabs type="card">
-      <TabPane tab="Popular" key="1">
-      <Space direction="vertical">
-                  
-                  <Image
-                    src="https://images.pexels.com/photos/6168473/pexels-photo-6168473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    style={{ width: "30rem", miHeight: "20rem" }}
-                  /> 
-
-
-                  <a href="#titoti">njesfaskjdfkjsa</a>
-                </Space>
-      </TabPane>
-      <TabPane tab="Related" key="2">
-      <Space direction="vertical">
-                  <h1>this is tab two</h1>
-                </Space>
-      </TabPane>
-      </Tabs>
-      </div>
+            <div className="card-container">
+              <Tabs type="card">
+                <TabPane tab="Popular" key="1">
+                  <Space direction="vertical">
+                    <Image
+                      src="https://images.pexels.com/photos/6168473/pexels-photo-6168473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      style={{ width: "30rem", miHeight: "20rem" }}
+                    />
+                    <Link to="#tito3">HEY YOU </Link>
+                  </Space>
+                </TabPane>
+                <TabPane tab="Related" key="2">
+                  <Space direction="vertical">
+                    <h1>this is tab two</h1>
+                  </Space>
+                </TabPane>
+              </Tabs>
+            </div>
           </Card>
         </aside>
       </div>
