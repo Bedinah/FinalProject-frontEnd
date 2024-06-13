@@ -27,24 +27,24 @@ const Nutrition = () => {
 
       <div style={{ width: "100%", height: "auto", padding: "10px" }}>
         <Card>
-          {Nutrients.map((Nutrition) => (
+          {Nutrients?.map((Nutrition) => (
             <Card.Grid style={{ width: "50%", miniHeight: "30rem" }}>
               <Space direction="vertical">
                 <Title level={4} style={{ color: "rgb(130, 118, 4)" }}>
-                  {Nutrition.title.toUpperCase()}
+                  {Nutrition?.title?.toUpperCase()}
                 </Title>
                 <div style={{ display: "flex", gap: "1rem" }}>
                   <Image
                     preview={true}
-                    src={Nutrition.picture}
+                    src={Nutrition?.picture}
                     style={{ width: "35rem", height: "30rem" }}
                   />
                   <Text type="secondary" italic>
-                    {Nutrition.description}
+                    {Nutrition?.description}
                   </Text>{" "}
                 </div>
-                <Title level={4}>{Nutrition.title2}</Title>
-                {Nutrition.explanation.split("#").map((exp) => (
+                <Title level={4}>{Nutrition?.title2}</Title>
+                {Nutrition?.explanation.split("#").map((exp) => (
                   <p>{exp}</p>
                 ))}
               </Space>

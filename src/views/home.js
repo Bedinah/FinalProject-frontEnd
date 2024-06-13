@@ -31,7 +31,7 @@ const Home = () => {
         </Carousel>
       </div>
 
-      {Homepage.map((Home) => (
+      {Homepage?.map((Home) => (
         <div style={{ display: "flex", margin: "0 10rem", marginTop: "5rem" }}>
           <img
             src={Home?.image}

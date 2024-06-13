@@ -19,7 +19,7 @@ const Dinner = () => {
     <>
       <div style={{ width: "100%" }}>
         <Grid container justifyContent="center" alignItems="center">
-          {Lesson.map((lesson) => (
+          {Lesson?.map((lesson) => (
              <Grid
              item
              xs={6}
